@@ -18,7 +18,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   anthropicKey: "",
   googleKey: "",
   anthropicModel: "claude-sonnet-5",
-  googleModel: "gemini-3.1-pro-preview",
+  googleModel: "gemini-flash-latest",
 };
 
 // Simple external store backed by localStorage, read via useSyncExternalStore so the

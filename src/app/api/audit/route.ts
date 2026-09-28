@@ -4,7 +4,10 @@ import { getSpecialtyConfig, type SpecialtyId, SPECIALTIES } from "@/lib/special
 import { runAudit, LlmError, type LlmProvider } from "@/lib/llm";
 
 export const runtime = "nodejs";
-export const maxDuration = 120;
+// The audit report can legitimately take a couple of minutes to generate given
+// the size of the prompt + reference anexos and the strict multi-table output
+// format. Vercel will clamp this to whatever the plan actually allows.
+export const maxDuration = 300;
 
 interface AuditRequestBody {
   nota: string;
