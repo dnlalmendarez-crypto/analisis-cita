@@ -11,10 +11,10 @@ Aplicación web para auditoría de calidad médica: coteja la **Transcripción**
 | Pediatría | ✅ Configurado |
 | Medicina Interna | ✅ Configurado |
 | Psicología | ✅ Configurado |
-| Nutrición | ⏳ Pendiente (falta su prompt y documentos) |
+| Nutrición | ✅ Configurado |
 | Medicina Metabólica | ⏳ Pendiente (falta su prompt y documentos) |
 
-Medicina General, Ginecología, Pediatría y Medicina Interna comparten el mismo prompt de auditoría (`src/lib/prompts/generalEspecialidadesPrompt.ts`), con matices propios de cada una cargados desde `data/reference/`. Psicología tiene su propio prompt (`src/lib/prompts/psicologiaPrompt.ts`) y su propia base de referencia (`data/reference/psicologia/`), ya que evalúa criterios distintos (áreas emocional/cognitiva/conductual/social, instrumentos psicométricos, Guía de Consulta de Psicología, etc.). `src/lib/promptRouter.ts` decide qué módulo usar según la especialidad detectada/seleccionada.
+Medicina General, Ginecología, Pediatría y Medicina Interna comparten el mismo prompt de auditoría (`src/lib/prompts/generalEspecialidadesPrompt.ts`), con matices propios de cada una cargados desde `data/reference/`. Psicología (`psicologiaPrompt.ts` + `data/reference/psicologia/`) y Nutrición (`nutricionPrompt.ts` + `data/reference/nutricion/`) tienen su propio prompt y base de referencia, ya que evalúan criterios muy distintos a los de medicina general (áreas emocional/cognitiva/conductual/social e instrumentos psicométricos en Psicología; evaluación bioquímica/antropométrica/dietética/de hábitos en Nutrición). El documento "Criterios de Calidez" (Presentación/Expresión/Despedida, con preguntas exactas y bandas de calificación) es compartido por los tres módulos (`data/reference/shared/criterios_calidez.json`). `src/lib/promptRouter.ts` decide qué módulo usar según la especialidad detectada/seleccionada.
 
 ## Cómo funciona
 

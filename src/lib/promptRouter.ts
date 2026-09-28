@@ -1,8 +1,10 @@
 import { GENERAL_ESPECIALIDADES_PROMPT } from "./prompts/generalEspecialidadesPrompt";
 import { PSICOLOGIA_PROMPT } from "./prompts/psicologiaPrompt";
+import { NUTRICION_PROMPT } from "./prompts/nutricionPrompt";
 import { NUEVA_CONSULTA_INSTRUCCION } from "./prompts/shared";
 import { buildAnexosMarkdown } from "./referenceContext";
 import { buildAnexosMarkdownPsicologia } from "./referenceContextPsicologia";
+import { buildAnexosMarkdownNutricion } from "./referenceContextNutricion";
 import type { SpecialtyId } from "./specialties";
 
 const GENERAL_GROUP: SpecialtyId[] = [
@@ -25,6 +27,11 @@ export function buildSystemPrompt(specialty: SpecialtyId): string {
   if (specialty === "PSICOLOGIA") {
     const anexos = buildAnexosMarkdownPsicologia();
     return `${PSICOLOGIA_PROMPT}\n\n${NUEVA_CONSULTA_INSTRUCCION}\n\n${anexos}`;
+  }
+
+  if (specialty === "NUTRICION") {
+    const anexos = buildAnexosMarkdownNutricion();
+    return `${NUTRICION_PROMPT}\n\n${NUEVA_CONSULTA_INSTRUCCION}\n\n${anexos}`;
   }
 
   throw new Error(`No hay un módulo de prompt configurado todavía para la especialidad: ${specialty}`);

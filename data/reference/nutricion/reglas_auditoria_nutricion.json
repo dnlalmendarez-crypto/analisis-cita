@@ -1,0 +1,164 @@
+[
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Motivo de consulta",
+    "indicador": "Motivo de consulta",
+    "descripcionRegla": "-Validar que el campo de motivo de la consulta este lleno.\n-Verificar si el nutricionista validó el motivo o la razón por la cual el paciente es referido a la consulta de Nutrición\n-Acción de preguntar en dado caso el paciente no lo haya llenado y acción de validar si ya está registrado\n-Si no viene consulta por, el video se compara vs la nota\n-Si viene la consulta por, que se valide que el nutricionista haya validado lo que está escrito en el campo"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Signos Vitales",
+    "indicador": "No aplica para Nutrición",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Talla y Peso",
+    "indicador": "Talla y Peso",
+    "descripcionRegla": "Validar si están llenos los campos de talla y peso, si no lo están Validar si nutricionista pregunta talla y peso, y lo haya anotado. Si el nutricionista pregunta y el paciente lo desconoce, la consulta no es viable y el profesional orienta al paciente para realizar estas mediciones y programar cita a la brevedad posible."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Antecedentes",
+    "indicador": "Antecedentes",
+    "descripcionRegla": "-Verificar si el nutricionista valida o consulta los antecedentes medicos personales o familiares\n- Nutricionista pregunta, paciente responde y nutricionista lo llena\n- Para Nutrición validar: Antecedentes personales y familiares, enfermedades crónicas no transmisibles, cirugías previas relevantes."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Alergias",
+    "indicador": "Alergias",
+    "descripcionRegla": "-Verificar si el nutricionista valida o consulta los alergias.\n- Nutricionista pregunta, paciente responde y nutricionista lo llena\n- Para Nutrición validar: alergias/intolerancias alimentarias actuales)"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "HISTORIA CLINICA NUTRICIONAL (presente enfermedad)",
+    "indicador": "¿El Profesional obvio sintomas importantes de la consulta?",
+    "descripcionRegla": "Que el nutricionista haya omitido algún sintoma o signo del paciente o no le haya dado importancia o que descarte el síntoma porque no tiene relación con el motivo de la consulta o sintomatología inicial\nValidar que el nutricionista registre de forma clara los síntomas y hallazgos relevantes (ej. síntomas digestivos, cambios de peso, falta de apetito)."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "HISTORIA CLINICA NUTRICIONAL (presente enfermedad)",
+    "indicador": "Evaluación nutricional del paciente\n(Bioquímica, antropométrica, dietética)",
+    "descripcionRegla": "Hace énfasis a la descripción cronológica de el/los signos y/o síntomas si el paciente es referido por una patología)"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "HISTORIA CLINICA NUTRICIONAL (presente enfermedad)",
+    "indicador": null,
+    "descripcionRegla": "Evaluación bioquímica: El nutricionista revisa datos de exámenes de laboratorio existentes, si este apartado está vacío, preguntar al paciente si se ha realizado algún tipo de examen de manera externa"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "HISTORIA CLINICA NUTRICIONAL (presente enfermedad)",
+    "indicador": null,
+    "descripcionRegla": "Evaluación antropométrica: El nutricionista realiza evaluación de peso actual/peso ideal (primera consulta) y otras medidas autogestionadas por el paciente (en consultas de seguimiento compara datos con respecto a consultas previas) y brinda explicación de estado nutricional en base a los datos obtenidos"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "HISTORIA CLINICA NUTRICIONAL (presente enfermedad)",
+    "indicador": null,
+    "descripcionRegla": "Evaluación dietética: Número de tiempos de comida, horarios, métodos de cocción, consumo de agua, bebidas azucaradas/alcohólicas, alimentos procesados, preferencias y aversiones, recuento de 24 horas.\nEvaluación de hábitos: calidad de sueño, actividad física."
+  },
+  {
+    "componente": "EXAMEN FISICO",
+    "criterio": "EXAMEN FÍSICO VISUAL",
+    "indicador": "Descripcion del examen fisico visual de acuerdo a los sintomas presentados",
+    "descripcionRegla": "Examen físico visual:\nSe registra lo que se observa a través de la cámara (si aplica): estado general, cambios notorios en peso de una consulta a otra, edemas visibles, distribución de grasa corporal."
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "APRECIACIÓN DIAGNOSTICA",
+    "indicador": "La apreciación diagnostica del médico concuerda con la historia clinica",
+    "descripcionRegla": "Evalúa si la apreciación diagnostica coincide lógicamente con la historia clínica, bioquimica, dietética y antropométrica que presenta el paciente."
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "DIAGNOSTICO PRINCIPAL",
+    "indicador": "El diagnostico principal es coherente con la historia clinica",
+    "descripcionRegla": "Evalúa si el diagnóstico nutricional principal coincide lógicamente con la historia clínica, dietética, antropométrica del paciente. (ej. “Sobrepeso”, “Obesidad grado II”"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "DIAGNOSTICO SECUNDARIO",
+    "indicador": "¿Existía un dx secundario y se evalúo y registro en la consulta?",
+    "descripcionRegla": "Si el paciente presenta patologías base y el nutricionista los registro en diagnostico secundario (ej. Diabetes tipo 2, hipertensión arterial)"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "PROBLEMAS ACTIVOS",
+    "indicador": "El dx, si correspondiera, fue incluido como Problema Activo?",
+    "descripcionRegla": "-Todos los problemas que representen importancia en cuanto al impacto  sobre la salud y las enfermedades cronicas no transmisibles deben ser registrados como \"PROBLEMA ACTIVO\"\n-Si el diagnostico está en el listado de dx que deben de quedar detallados como problemas activos, validar si el médico lo dejó detallado.\n-En Nutrición se valida si se identifican los problemas nutricionales que actualmente requieren intervención (ej. sobrepeso u obesidad)."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "PRESCRIPCION",
+    "indicador": "No aplica para Nutrición",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "PRESCRIPCION",
+    "indicador": "No aplica para Nutrición",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "LABORATORIO",
+    "indicador": "No aplica para Nutrición",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "IMAGENES",
+    "indicador": "No aplica para Nutrición",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "REFERENCIA EXTERNA",
+    "indicador": "Si la referencia es pertinente?",
+    "descripcionRegla": "Si la referencia es pertinente o no si debio haber referido y no lo hizo.\n\n(En Nutrición se brindará al paciente una referencia externa a la misma especialidad a los 3 meses de seguimiento, con el objetivo de validar de manera estandarizada las mediciones antropométricas, garantizar la calidad de los datos clínicos y optimizar la precisión de los ajustes nutricionales."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "REFERENCIA INTERNA",
+    "indicador": "Si la referencia es pertinente?",
+    "descripcionRegla": "Si la referencia es pertinente o no si debio haber referido y no lo hizo.\n\nEvaluar si el nutricionista identificó necesidad de referir a médico (ej. sospecha de complicaciones, etc) o psicología (ej. relación emocional con comida, mal adherencia, trastornos de conducta alimentaria, etc)"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "INCAPACIDAD",
+    "indicador": "No aplica para Nutrición",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Recomendaciones",
+    "indicador": "Prescripción dietética y \ndistribución de nutrientes",
+    "descripcionRegla": "Se valida que quede registrado en nota médica el plan de intervención que se realizará al paciente con distribución de nutrientes y calorías, prescripción dietética"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Recomendaciones",
+    "indicador": "¿El médico brindo recomendaciones acordes al diagnostico?",
+    "descripcionRegla": "Se valida que el nutricionista brinde Educación Alimentaria Nutricional y recomendaciones claras y factibles, de acuerdo con los hallazgos en la historia clinica nutricional del paciente"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Recomendaciones",
+    "indicador": "Objetivo Terapeutico",
+    "descripcionRegla": "Definir cantidad de sesiones"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Recomendaciones",
+    "indicador": "PLAN NUTRICIONAL",
+    "descripcionRegla": "Plan de alimentación:\n-Se valida si se elaboró un plan individualizado, adaptado a las necesidades del paciente, y se envió por correo electrónico.\n-Recomendaciones nutricionales adicionales (educación alimentaria, tips prácticos)."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "SEGUIMIENTO",
+    "indicador": "¿El profecional estipula un seguimiento?",
+    "descripcionRegla": "Debe quedar registrado el período de días para próxima consulta.\nInstrucción: paciente será contactado por Call Center para confirmar fecha/hora."
+  }
+]

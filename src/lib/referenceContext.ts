@@ -10,6 +10,7 @@ import medicamentosActivos from "../../data/reference/medicamentos_activos_lom.j
 import estudiosActivos from "../../data/reference/estudios_activos.json";
 import pesosCalidad from "../../data/reference/pesos_calidad.json";
 import clasificacionNC from "../../data/reference/clasificacion_no_conformidad.json";
+import { buildCriteriosCalidezAnexo, markdownTable } from "./referenceShared";
 import type { SpecialtyId } from "./specialties";
 
 interface PatologiaSeguimiento {
@@ -104,14 +105,7 @@ const NC_COLUMN: Record<SpecialtyId, keyof ClasificacionNCRow> = {
   MEDICINA_METABOLICA: "MEDICINA_METABOLICA",
 };
 
-function table(headers: string[], rows: (string | number | null | undefined)[][]): string {
-  const clean = (v: string | number | null | undefined) =>
-    String(v ?? "").replace(/\|/g, "/").replace(/\r?\n+/g, " ").trim();
-  const head = `| ${headers.join(" | ")} |`;
-  const sep = `| ${headers.map(() => "---").join(" | ")} |`;
-  const body = rows.map((r) => `| ${r.map(clean).join(" | ")} |`).join("\n");
-  return `${head}\n${sep}\n${body}`;
-}
+const table = markdownTable;
 
 function referenciaInternaBlock(title: string, items: ReferenciaInternaItem[]): string {
   if (!items.length) return "";
@@ -250,6 +244,8 @@ ${table(
   ["Componente", "Criterio", "Peso %", "¿Auto-fail?"],
   pesos.map((p) => [p.componente, p.criterio, typeof p.pesoPorcentaje === "number" ? `${(p.pesoPorcentaje * 100).toFixed(1)}%` : p.pesoPorcentaje, p.autoFail ?? "n/a"])
 )}`);
+
+  sections.push(buildCriteriosCalidezAnexo());
 
   return sections.join("\n\n");
 }
