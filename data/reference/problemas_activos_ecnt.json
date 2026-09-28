@@ -1,0 +1,94 @@
+[
+  {
+    "cie11": "5A11",
+    "diagnostico": "Diabetes Mellitus tipo 2"
+  },
+  {
+    "cie11": "5A10",
+    "diagnostico": "Diabetes Mellitus tipo 1"
+  },
+  {
+    "cie11": "BA00",
+    "diagnostico": "Hipertensión esencial"
+  },
+  {
+    "cie11": "GB61",
+    "diagnostico": "Enfermedad renal crónica (ERC)"
+  },
+  {
+    "cie11": "CA22",
+    "diagnostico": "Enfermedad Pulmonar Obstructiva Crónica"
+  },
+  {
+    "cie11": "CA23",
+    "diagnostico": "Asma"
+  },
+  {
+    "cie11": "BA6Z",
+    "diagnostico": "Cardiopatía isquémica"
+  },
+  {
+    "cie11": "5B81.01&XS2B",
+    "diagnostico": "Obesidad Morbida (IMC>40)"
+  },
+  {
+    "cie11": "6C4A.2",
+    "diagnostico": "Tabaquismo"
+  },
+  {
+    "cie11": "QC40",
+    "diagnostico": "Cáncer (Historial/seguimiento)"
+  },
+  {
+    "cie11": "FA20",
+    "diagnostico": "Artritis reumatoide"
+  },
+  {
+    "cie11": "5A00",
+    "diagnostico": "Hipotiroidismo"
+  },
+  {
+    "cie11": "4A40.0",
+    "diagnostico": "Lupus eritematosos sistémico"
+  },
+  {
+    "cie11": "6B00",
+    "diagnostico": "Trastorno crónico de ansiedad"
+  },
+  {
+    "cie11": "6A71",
+    "diagnostico": "Trastorno depresivo"
+  },
+  {
+    "cie11": "1C62.Z",
+    "diagnostico": "VIH/Sida"
+  },
+  {
+    "cie11": "8A6Z",
+    "diagnostico": "Epilepsia"
+  },
+  {
+    "cie11": "4B4Z",
+    "diagnostico": "Enfermedades del sistema inmunitario"
+  },
+  {
+    "cie11": "DA42.Z",
+    "diagnostico": "Gastritis crónica"
+  },
+  {
+    "cie11": "DA22",
+    "diagnostico": "Enfermedad por reflujo gastroesofágico (ERGE)"
+  },
+  {
+    "cie11": "8A80.2",
+    "diagnostico": "Migraña crónica"
+  },
+  {
+    "cie11": "8B25.4",
+    "diagnostico": "Historia personal de ECV"
+  },
+  {
+    "cie11": "QF10",
+    "diagnostico": "Discapacidad certificada"
+  }
+]

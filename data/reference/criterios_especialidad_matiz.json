@@ -1,0 +1,232 @@
+[
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Motivo de consulta",
+    "descripcion": "Investiga motivo de consulta",
+    "MEDICINA_INTERNA": "En el caso de consulta de especialidad debe validar el motivo de la referencia a la consulta de especialidad",
+    "GINECOLOGIA": "En el caso de consulta de especialidad debe validar el motivo de la referencia a la consulta de especialidad",
+    "PEDIATRIA": "En el caso de consulta de especialidad debe validar el motivo de la referencia a la consulta de especialidad",
+    "PSICOLOGIA": "En el caso de consulta de especialidad debe validar el motivo de la referencia a la consulta de especialidad",
+    "NUTRICION": "En el caso de consulta de especialidad debe validar el motivo de la referencia a la consulta de especialidad"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Triage",
+    "descripcion": "No valida TRIAGE (Medico describe o no triage en las observaciones medicas)",
+    "MEDICINA_INTERNA": "No es evaluable desde especialidad ya que el paciente no lo llena debido a que es referencia interna, no sale esa opcion en el menu",
+    "GINECOLOGIA": "No es evaluable desde especialidad ya que el paciente no lo llena debido a que es referencia interna, no sale esa opcion en el menu",
+    "PEDIATRIA": "No es evaluable desde especialidad ya que el paciente no lo llena debido a que es referencia interna, no sale esa opcion en el menu",
+    "PSICOLOGIA": "No es evaluable desde especialidad ya que el paciente no lo llena debido a que es referencia interna, no sale esa opcion en el menu",
+    "NUTRICION": "No es evaluable desde especialidad ya que el paciente no lo llena debido a que es referencia interna, no sale esa opcion en el menu"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Signos Vitales",
+    "descripcion": "Valida Signos Vitales en dado caso no tenga precargada la información",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "N/A"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Talla y peso",
+    "descripcion": "Valida Talla y peso",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "N/A",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "En nutrición es un requisito indispensable para el desarrollo de la teleconsulta contar con datos de peso y talla del paciente"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Antecendentes",
+    "descripcion": "Validar si Pregunto y Registro los Antecendentes",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "En pediatria preguntar antecedentes de enfermedad cronica, alergias y si  esquema de vacunacion se encuentra actualizado",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Alergias",
+    "descripcion": "Validar si Pregunto y Registro los Alergias",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Presente Enfermedad",
+    "descripcion": "Se verifica la completitud y el detalle de la descripción del cuadro clínico, asegurando que se documenten los siguientes elementos:\n- Forma de Inicio (Hace énfasis si el inicio es insidioso o progresivo, o si es súbito). - Evolución (Ej.: Estacionaria, en aumento, en mejoría). - Tiempo de Evolución/Duración (Hace énfasis a la descripción cronológica de el/los signos y/o síntomas) - Localización y Características del síntoma.(Hace énfasis a orientar a describir la ubicación más precisa de el/los signos y/o síntomas o si su síntoma se mueve a otras zonas del cuerpo)\n- Intensidad o Cantidad (Hace énfasis, cuando amerite describir la intensidad de un síntoma Ej.: La escala EVA (Escala Visual Analógica del Dolor)). - Síntomas Acompañantes.(Se describe si el síntoma principal se acompaña de otros síntomas) -Frecuencia o Repetición del síntoma.(Hace énfasis, a la repetición o continuidad del síntoma en el tiempo) - Negación de síntomas relevantes (Hay interrogación sobre negación de síntomas). - Si el Cuadro Clínico se ha Repetido en el pasado.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Transcripción Clínica",
+    "descripcion": "Se debe verificar que la descripción de la Presente Enfermedad en la nota clínica sea fiel y coherente con la información discutida durante la consulta. La auditoría requiere comparar el texto registrado en esta sección contra la transcripción de la videollamada para identificar y señalar cualquier incongruencia o inclusión de detalles, síntomas, o eventos que no fueron abordados o mencionados por el paciente",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "EXAMEN FISICO",
+    "criterio": "Examen Físico Visual",
+    "descripcion": "Se evalúa la pertinencia y el detalle de la exploración visual registrada en la nota médica. Debe incluir una descripción de la apariencia general del paciente que sea congruente con el cuadro clínico y la modalidad de teleconsulta.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "hay limitaciónes por resguardo de privacidad",
+    "PEDIATRIA": "hay limitaciones segun sea el area que se encuentre afectada, sobretodo por ser menores de edad",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "Apreciación Diagnostica",
+    "descripcion": "La apreciación diagnóstica evalúa la coherencia de la conclusión clínica inicial del médico con la sintomatología del paciente, verificando que el razonamiento se base en la evidencia disponible y los estándares de atención. El análisis de esta concordancia es crucial para asegurar que la impresión diagnóstica sea lógica y pertinente con la información registrada en la historia clínica.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "Diagnostico Principal",
+    "descripcion": "El diagnóstico principal representa la condición médica por la que el paciente consulta, esto justifica la consulta. La auditoría se enfoca en verificar que este diagnóstico tenga una concordancia precisa con el motivo de la consulta y, la sintomatología descrita en la anamnesis del paciente. Es fundamental que el diagnóstico principal se encuentre sólidamente fundamentado en la evidencia clínica recopilada, y que se le asigne el código CIE-11 correcto. Esto es esencial para garantizar la calidad del registro, el seguimiento epidemiológico y los procesos de facturación.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "Diagnostico Secundario",
+    "descripcion": "Los diagnósticos secundarios son condiciones adicionales que coexisten con la patología principal y que pueden ser cruciales para el manejo integral del paciente. La auditoría se enfoca en verificar la pertinencia de estos diagnósticos, asegurando que el médico haya considerado y documentado adecuadamente todas las comorbilidades y condiciones relevantes. Además, estos diagnósticos pueden justificar acciones o productos de la consulta, como la prescripción de medicamentos o la solicitud de estudios, que no estén directamente relacionados con el diagnóstico principal, lo que demuestra una evaluación clínica completa y coherente con la anamnesis.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "Problemas Activos",
+    "descripcion": "La lista de Problemas Activos es crucial para asegurar la coherencia y continuidad del cuidado del paciente. Esta sección debe incluir todos los diagnósticos que representen un impacto significativo en la salud del paciente (ej. enf. febril aguda), especialmente las Enfermedades Crónicas No Transmisibles (ECNT). Cuando un diagnóstico que corresponde a una de estas condiciones no es registrado como \"Problema Activo\", se considera una deficiencia en la documentación. El propósito de este registro es asegurar que todo el personal médico involucrado en la atención del paciente tenga acceso rápido y claro a las condiciones de salud más relevantes, lo cual es fundamental para una toma de decisiones informada y para la seguridad del paciente a largo plazo.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Prescripción Indicación",
+    "descripcion": "iNDICACION: Se evaluará rigurosamente si los fármacos indicados son coherentes con la condición del paciente, sus diagnósticos, y si se ajustan a las directrices para la estrategia de telemedicina, considerándose un hallazgo cuando los medicamentos prescritos no se correspondan con la tabla de prescripción predeterminada para el diagnóstico definitivo, secundario o la apreciación diagnóstica (o si utiliza la opción de \"otros\" sin justificación adecuada), a menos que exista una justificación clara y documentada para tal desviación.",
+    "MEDICINA_INTERNA": "en especialidades el medico puede indicar medicamentos y dosis diferentes a los que se encuentran parametrizados en enfermedades, los tratamientos estan basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades\n\nNo esta permitido sugerir comprar un medicamento que este fuera del LOM",
+    "GINECOLOGIA": "en especialidades el medico puede indicar medicamentos y dosis diferentes a los que se encuentran parametrizados en enfermedades, los tratamientos estan basados en guias internacionales ya que no se encuentran protocolos adaptados a \nespecialidades.\n\nNo esta permitido sugerir comprar un medicamento que este fuera del LOM",
+    "PEDIATRIA": "en especialidades el medico puede indicar medicamentos y dosis diferentes a los que se encuentran parametrizados en enfermedades, los tratamientos estan basados en guias internacionales ya que no se encuentran protocolos adaptados a \nespecialidades.\n\nNo esta permitido sugerir comprar un medicamento que este fuera del LOM",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "N/A"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Prescripción Dosis",
+    "descripcion": "DOSIS: Se evaluará si la dosis, vía de administración o frecuencia de los medicamentos prescritos son adecuadas según las guías de práctica clínica y coherentes con la edad o condición específica del paciente y el diagnóstico o apreciación diagnóstica establecida, verificando que las indicaciones sean precisas y apropiadas para garantizar la seguridad y eficacia del tratamiento en el contexto de la telemedicina.",
+    "MEDICINA_INTERNA": "en especialidades el medico puede indicar medicamentos y dosis diferentes a los que se encuentran parametrizados en enfermedades, los tratamientos estan basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "GINECOLOGIA": "en especialidades el medico puede indicar medicamentos y dosis diferentes a los que se encuentran parametrizados en enfermedades, los tratamientos estan basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "PEDIATRIA": "en especialidades el medico puede indicar medicamentos y dosis diferentes a los que se encuentran parametrizados en enfermedades, los tratamientos estan basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "N/A"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Laboratorio Indicación",
+    "descripcion": "Se centra en validar que la indicación de exámenes siga los lineamientos descritos en las guías de práctica clínica para la telemedicina o que sean coherentes con el caso clínico. Este análisis asegura que los estudios solicitados sean pertinentes, estén plenamente justificados por la sintomatología y el diagnóstico o apreciación diagnóstica del paciente, y que contribuyan de manera efectiva al proceso de diagnóstico y seguimiento.",
+    "MEDICINA_INTERNA": "En especialidades el medico puede indicar examenes diferentes basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "GINECOLOGIA": "En especialidades el medico puede indicar examenes diferentes basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "PEDIATRIA": "En especialidades el medico puede indicar examenes diferentes basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "N/A"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Imágenes Indicación",
+    "descripcion": "INDICACIÓN: Se evalúa si el estudio solicitado cumple con los lineamientos de las guías de práctica clínica y es pertinente al cuadro clínico.",
+    "MEDICINA_INTERNA": "En especialidades el medico puede indicar imagenes basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "GINECOLOGIA": "En especialidades el medico puede indicar imagenes basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "PEDIATRIA": "En especialidades el medico puede indicar examenes diferentes basados en guias internacionales ya que no se encuentran protocolos adaptados a especialidades",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "N/A"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Imágenes Seguridad al Contraste",
+    "descripcion": "Criterio de Seguridad:  Es obligatorio verificar que el médico haya validado si el paciente era alérgico al material de contraste para pruebas que lo requieran.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "N/A"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Referencia Interna",
+    "descripcion": "Se comprobará si la referencia a otro nivel de atención (externa, ya sea a consulta externa presencial o a servicio de emergencia) es pertinente y está justificada por la complejidad del caso o si debió haberse realizado y se omitió, evaluando si el paciente cumplió con las condiciones de salud necesarias y coherentes para su indicación y garantizando que sea coherente con el diagnóstico o apreciación diagnóstica y las guías de práctica clínica de la telemedicina; se considerará un hallazgo si la referencia no se efectuó cuando era necesaria, si se realizó de forma injustificada o si la modalidad de referencia elegida (consulta externa vs. emergencia) no fue la más pertinente.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Si aplica",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "N/A"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Referencia Externa",
+    "descripcion": "Se comprobará si la referencia a otra especialidad es pertinente y está justificada por la complejidad del caso o si debió haber referido y se omitió, evaluando si el paciente cumple con las condiciones de salud necesarias y coherentes para la referencia interna a otro especialista de telemedicina, asegurando que dicha derivación sea coherente con el diagnóstico o apreciación diagnóstica y se alinee con las guías de práctica clínica específicas para la telemedicina, auditándose cuidadosamente la pertinencia y justificación de esta acción.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Pediatria no realiza referencias internas",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Constancia Médica",
+    "descripcion": "Se evaluará si la indicación de incapacidad médica siguió los lineamientos de las guías de práctica clínica para la estrategia de telemedicina, verificando la justificación y la duración de la incapacidad emitida, asegurando que sea coherente con el diagnóstico o la apreciación diagnóstica del paciente y que se encuentre acorde a su condición y a las normativas aplicables.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Si aplica",
+    "PEDIATRIA": "Pediatria se sale de la regla de incapacidades ya que si se trata de procesos agudos en las escuelas se pide incapacidad por enfermedad para el paciente para evitar focos infecciosos, por lo que el pediatra generalmente extiende incapacidades para reposo escolar",
+    "PSICOLOGIA": "N/A",
+    "NUTRICION": "N/A"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Recomendaciones",
+    "descripcion": "Las indicaciones deben ser claras, concisas y específicamente adaptadas para el manejo a distancia. Se considera un hallazgo si son genéricas o no corresponden a la tabla de recomendaciones predeterminadas.",
+    "MEDICINA_INTERNA": "N/A",
+    "GINECOLOGIA": "N/A",
+    "PEDIATRIA": "Las recomendaciones en especialidades pueden variar segun criterio del especialista, aplica parcialmente",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Seguimiento",
+    "descripcion": "El seguimiento debe ser coherente con el diagnóstico establecido y especificar claramente la frecuencia de control requerida; además, se considerará un hallazgo crítico si se omite la indicación de Seguimiento Obligatorio para diagnósticos que lo exigen según normativas, como la Gastroenteritis Aguda (GEA, bacteriana o parasitaria), la Infección de Vías Urinarias (IVU), la Cistitis, la Fiebre de Origen Desconocido, el Dengue o el Sarampión, evaluándose si dicho plan (incluyendo citas de control, monitoreo y ajustes de tratamiento) se alinea con las guías de práctica clínica y la estrategia de telemedicina, siendo un punto de atención si este resulta inadecuado, insuficiente o no está claramente documentado, especialmente en enfermedades de control epidemiológico donde el seguimiento riguroso es vital para la contención, vigilancia y continuidad de la atención del paciente.",
+    "MEDICINA_INTERNA": "Si aplica",
+    "GINECOLOGIA": "Cada medico especialista evaluará el seguimiento de cada patología",
+    "PEDIATRIA": "Queda a criterio del especialista el seguimiento que brindara segun complejidad de cuadro, en pediatria se realizan seguimientos a corto plazo si patologia aguda es potencialmente complicable",
+    "PSICOLOGIA": "Si aplica",
+    "NUTRICION": "Si aplica"
+  }
+]

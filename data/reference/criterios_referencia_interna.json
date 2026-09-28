@@ -1,0 +1,288 @@
+{
+  "MEDICINA_INTERNA": [
+    {
+      "escenario": "ENFERMEDADES CARDIOVASCULARES",
+      "examenes": "Rayos X de tórax, hemograma, creatinina, HDL, LDL, glucosa, colesterol total, triglicéridos",
+      "descripcion": "Pacientes que, con manejo antihipertensivo, no presentan mejoría de los valores de presión arterial, como la hipertensión resistente a tratamiento, sospecha de alteraciones cardiovasculares, de posible origen secundario, que afecte los objetivos de presión arterial, como la nefropatía hipertensiva (hipertensión secundaria).\n\nHay que considerar también que pacientes con sospecha de cardiopatía, o ya demostrada, pueden ser referidos para manejo y evaluación (ejemplos: ICC estables, angina estable, cardiopatía post infarto estable, arritmias sin compromiso hemodinámico.)"
+    },
+    {
+      "escenario": "ENFERMEDADES METABÓLICA  (DIABETES MELLITUS ) O ENDOCRINOLÓGICAS",
+      "examenes": "Glucosa, creatinina, general de orina, hemograma, ácido úrico.\n(Hb1AC: el uso de esta prueba es exclusivamente para pacientes debutantes, el uso en pacientes subsecuentes es exclusivo de especialistas).",
+      "descripcion": "Pacientes que, con manejo de hipoglucemiantes orales, no logran lo objetivos terapéuticos definidos, pacientes con alta sospecha de presentar estados insulinopénicos, cuadro muy común en la diabetes latente autoinmune del adulto (LADA), pacientes diabéticos tipo 1, y pacientes que presentan riesgo de complicaciones microvasculares por mal manejo de valores de glucosa en sangre (nefropatía, retinopatía, neuropatía, gastroparesia, u otro trastorno identificado).\n\nToda sospecha de otro trastorno endocrinológico es motivo de referencia, los exámenes quedan a discreción del médico que refiere, sin superar la regla de 4 exámenes por consulta."
+    },
+    {
+      "escenario": "ENFERMEDADES TIROIDEAS",
+      "examenes": "TSH T3 y T4, hemograma",
+      "descripcion": "En relación con patología tiroidea, los pacientes que presentan los estados de hipertiroidismo o hipotiroidismo clínico, es indispensable  una evaluación en los estados subclínicos, no es necesario referir y solo requieren seguimiento, excepto tengan dudas sobre la  interpretación de las pruebas diagnósticos"
+    },
+    {
+      "escenario": "ENFERMEDADES PULMONARES",
+      "examenes": "Rayos X de tórax PA y lateral, hemograma, VES. Si la sospecha  representa TB agregar baciloscopia.",
+      "descripcion": "En las neumopatías crónicas como Asma y EPOC es necesario aplicar los criterios que definen una enfermedad controlada, de no cumplir  estos aspectos es indispensable una evaluación por medicina interna (ver anexos). \n\nEn la sospecha de neumopatías infecciosas se debe considerar siempre el compromiso del paciente, con escalas de evaluación definidas  (ejemplo: CURB-65), descartando una emergencia. Considerar los tiempos de evaluación del especialista. \n\nConsiderando evolución inadecuada con tratamiento antibiótico (cambio de manejo), sospecha de tuberculosis o sospecha de  infecciones oportunistas del pulmón."
+    },
+    {
+      "escenario": "ENFERMEDADES AUTOINMUNES",
+      "examenes": "Hemograma, general de orina, PCR, VES, ácido úrico,  creatinina.",
+      "descripcion": "En paciente con sospecha de patología autoinmune se debe caracterizar la enfermedad, con los criterios clínicos para cada enfermedad  (ver anexos). Si realizando estos test, la sospecha persiste o es una probabilidad alta de enfermedad, debe ser referido para una  evaluación. \n\nEn pacientes con diagnósticos ya confirmados, deben ser referidos para evaluación por medicina interna, siempre y cuando la estabilidad del paciente no esté comprometida."
+    },
+    {
+      "escenario": "ARTRITIS REUMATOIDEA",
+      "examenes": "Sospecha de AR, factor reumatoideo considerar radiografías  de mano, u otra articulación afectada. PCR VES",
+      "descripcion": "Pacientes con cuadro clínico de artritis, generalmente simétrica, con rigidez matutina, que mejora a lo largo del día, evolución de más de  6 semanas."
+    },
+    {
+      "escenario": "ENFERMEDAD RENAL CRÓNICA",
+      "examenes": "Creatinina, N. ureico, ácido úrico, sodio, potasio, general de  orina, hemograma USG renal",
+      "descripcion": "Los pacientes con factores de riesgo para enfermedad renal crónica, según evolución, pueden ser referidos para una opinión  especializada en los seguimientos médicos rutinarios (diabético con descontrol, hipertenso con descontrol, alteraciones electrolíticas  recurrentes). \n\nLos pacientes con factores de progresión de la enfermedad, en estadíos 1, 2 y 3-A, deben ser evaluados por especialidad de medicina  interna.\n \nPara estos cálculos, se ocupa la fórmula de Cockcroft-Gault 140xpeso(kg)/Cr sericax72 (en mujeres, resultado se multiplica por 0.85). \n\nPacientes en estadíos avanzados de la enfermedad renal (4-5) con o sin sintomatología descompensada de la enfermedad, son de  referencia externa, desde la evaluación del médico general."
+    },
+    {
+      "escenario": "ENFERMEDAD HEPÁTICA Y DIGESTIVA",
+      "examenes": "Hemograma, fosfatasa alcalina, bilirrubinas, TGO-TGP,  albúmina, TP-INR, USG abdominal.",
+      "descripcion": "Para enfermedades que afectan el hígado como la cirrosis, caracterizar la enfermedad según los criterios clínicos y referir orientando la  sospecha clínica. En casos donde la enfermedad ya está definida, considerar la estabilidad del paciente para un seguimiento clínico.\n \nCuadros crónicos de enfermedad digestiva, de evolución estable también pueden ser evaluados por la especialidad, considerando  incluso patologías infecciosas sin mejoría a pesar de manejos iniciales, diarrea crónica, hemorragias digestivas, crecimiento abdominal  sin causa definida, muchos cuadros clínicos de neoplasias debutan con sintomatología crónica digestiva. (Como cánceres y VIH)"
+    },
+    {
+      "escenario": "ENFERMEDADES NEUROLÓGICAS",
+      "examenes": "Hemograma, electrolitos (Na. K, Cl ), creatinina, colesterol  total, HDL, LDL.",
+      "descripcion": "En estados de cefalea crónica, con manejo que no mejora a pesar de las medidas terapéuticas, neuropatías craneales, trastornos del  movimiento sin causa aparente y manejo de epilepsias, son patologías viables de evaluación por esta especialidad. \n\nPacientes ya conocidos por eventos cerebrales previos en prevención secundaria o en rehabilitación, también son candidatos para  evaluación médica especializada."
+    },
+    {
+      "escenario": "ENFERMEDADES HEMATOLÓGICAS",
+      "examenes": "Hemograma, reticulocitos, frotis sangre periférica sangre  oculta en heces, VIH",
+      "descripcion": "La patología hematología presenta no solo signos y síntomas sino también alteraciones en el hemograma, los cuadros que  comprometen dos y tres líneas conocidas como bicitopenia o pancitopenia; si la causa no está definida y el paciente está estable, son  candidatos a una evaluación por esta especialidad.\n \nLos trastornos de la coagulación son en primera intención referencia externa desde el médico general. \n\n- Glóbulos rojos (hgb entre 8 y 10 mg/dl o superior a 18 mg/dl) o inexplicable. \n- Plaquetas (debajo de 100,000 o superior a 500,000) sin signos de sangrado - leucopenias (recuento de leucocitos <4,000)\n\nEn pacientes estables podrán referirse a medicina interna, pacientes con fiebre y leucopenia severa (<1000 o neutropenia< 500  constituyen referencia externa inmediata a unidad de emergencia)."
+    }
+  ],
+  "GINECOLOGIA": [
+    {
+      "escenario": "INFECCIONES VAGINALES",
+      "examenes": "No requiere",
+      "descripcion": "Paciente con 3 o más consultas por infecciones vaginales, a pesar de completar tratamientos medicos durante al años, es candidata para evaluacón por Ginecologia por medio de la referencia interna"
+    },
+    {
+      "escenario": "AMENORREA",
+      "examenes": "Ultrasonido Pélvico, prueba de embarazo",
+      "descripcion": "(Definicion: Ausencia de menstruación) puede ser primaria o secundaria (por alteraciones hormonales, etc.) independientemente cual sea, es necesario una evaluación coin ginecología por medio de la referencia interna."
+    },
+    {
+      "escenario": "HEMORRAGIA UTERINA ANORMAL",
+      "examenes": "USG pélvica, prueba de embarazo, hemograma",
+      "descripcion": "La hemorragia uterina anormal (HUA) es todo sangrado que no sigue el patrón normal del ciclo menstrual, Si el sangrado es activo y mayor o igual que regla referir de manera presencial para evaluación (referencia externa)\nSi la hemorragia descrita es menor que regla, o no es, una hemorragia activa en la consulta puede referirse a ginecología por medio de la referencia interna."
+    },
+    {
+      "escenario": "SÍNDROME DE OVARIO POLIQUÍSTICO",
+      "examenes": "Pruebas tiroideas, glicema en ayuna, USG pélvica vaginal (Sexualmente activa) o Ulltrasonografía suprapúbica (Pélvica ginecológica)(si no ha iniciado relaciones sexuales).",
+      "descripcion": "La sospecha de SOP surge por medio de los criterios clinicos de la enfermedad y hallazgos de quistes por medio de USG en ovarios.(Anexos),\n\nCon la sospecha de hallazgos clinicos: paciente con historia de amenorrea, hirutismo, acné y obesidad, es candidata para evaluación por medio de referencia interna con ginecología."
+    },
+    {
+      "escenario": "SÍNDROME PREMENSTRUAL",
+      "examenes": "USG pélvica vaginal (Sexualmente activa) o Ultrasonografía suprapúbica (pélvica-ginecológica) (Si no ha iniciado relaciones sexuales).",
+      "descripcion": "Grupo de síntomas físicos y emocionales que comienzan una o 2 semanas antes de su periodo menstrual."
+    },
+    {
+      "escenario": "MASTITIS",
+      "examenes": "USG mama Hemograma",
+      "descripcion": "La afectación de los tejidos blandos de la mama, según su extensión y sintomatología, pueden ser manejo de dos vías: Referencia interna: en caso de sintomas leves, sin extensión o en casos de manejos iniciales sin una mejoria esperada, sin extensión de tejidos.\n\nReferencia externa: en caso de extensión de tejidos y sospecha de formación de abscesos que ameriten drenaje. Indepedientemente que esté con lactancia materna o no."
+    },
+    {
+      "escenario": "FIBROMATOSIS UTERINA",
+      "examenes": "USG pélvica vaginal (Secualmente activa) o Ultrasonografía suprapúbica (pélvica-ginecológica) (Si no ha iniciado relaciones sexuales).",
+      "descripcion": "En la fibromatosis uterina dependiendo de la ubicacion de los miomas (Subserosos, submucosos o intramurales), y las sintomatologia que la paciente presente, de esto depende las decisiones sobre el manejo a tomar; sin embargo, en caso con historia de HUA y si el sangrado es activo o en cantidad mayor a regla, referir de manera presencial.\nSi es paciente con miomatosis sangrados menstruales normales o abundantes dentro de su ciclo menstrual normal, es candidata para referencia interna con ginecología."
+    },
+    {
+      "escenario": "ENDOMETRIOSIS",
+      "examenes": "USG pélvica vaginal (Secualmente activa) o Ultrasonografía suprapúbica (pélvica-ginecológica) (Si no ha iniciado relaciones sexuales).",
+      "descripcion": "Sospecha de cuadro clínico o confirmación por USG, debe referirse al ginecólogo por medio de la referencia interna."
+    },
+    {
+      "escenario": "CLIMATERIO Y MENOPAUSIA",
+      "examenes": "Hemograma, glicemia, colesterol, triglicéridos, ego, mamografía, usg pélvica.",
+      "descripcion": "Mujer entre 40 a 50 años con oligomenorrea, periodos de amenorrea o amenorrea durante 1 año, que presente los siguientes hallazgos clinicos: cambios de humor, irritabilidad, insomnio, calores o sofocos, puede evaluarse por medio de referencia interna por ginecología."
+    },
+    {
+      "escenario": "CONSULTA PRECONCEPCIONAL",
+      "examenes": "HEMOGRAMA, TIPEO RH, PRS, VIH",
+      "descripcion": "Toda paciente mayor de 18 años que desee un embarazo."
+    }
+  ],
+  "GINECOLOGIA_nota": "NOTA IMPORTANTE:\n\nSI ES NECESARIO UN ESTUDIO RADIOLÓGICO PARA OBSERVAR TEJIDO MAMARIO, INDICAR SEGÚN ACUERDO A EDAD DE PACIENTE\nMENOR DE 40 AÑOS (39 AÑOS): USG DE MAMA DE 40 AÑOS O MÁS MAMOGRAFIA",
+  "PEDIATRIA": [
+    {
+      "escenario": "NIÑOS MENORES DE 1 AÑO",
+      "examenes": "Manejo de pediatría en primera instancia",
+      "descripcion": "El sistema tecnológico de triage, hará una asignación directa con un pediatra disponible, independiente de la patología.\nSin embargo, por saturación de agendas, los cupos pueden ser asignados con un médico general, el cual tratará la patología y si considera una patología que amerita una opinión de pediatría podrá referirlo, sin necesidad de indicar exámenes."
+    },
+    {
+      "escenario": "SÍNTOMAS RESPIRATORIOS RECURRENTES",
+      "examenes": "No amerita toma de exámenes",
+      "descripcion": "más de 2 cuadros respiratorios infecciosos en el último mes, que no mejoran con tratamiento respectivo, o cuadros con sintomatología respiratoria prolongados (mayores a 1 semana) sin presentar mejoría clínica."
+    },
+    {
+      "escenario": "ASMA (CON O SIN EXACERBACIÓN)",
+      "examenes": "No amerita toma de exámenes",
+      "descripcion": "Consideraciones\nPaciente que consulta, sea por asma u otra causa, en donde el asma, no tiene tratamiento o no tiene controles regulares, debe ser referido a pediatra. (si no tiene tratamiento indicarle inhaladores del\nprograma.)\nPaciente con diagnóstico de asma, que no presenta control adecuado a pesar de tratamiento indicado, sea en la plataforma de telemedicina o por médico privado o de instituciones presenciales.\nExacerbación asmática en consulta son motivo de referencia externa. La exacerbación es un período en el que el asma de un niño se descontrola, y los síntomas como la tos, las sibilancias (silbidos al respirar), la dificultad para respirar y la opresión en el pecho empeoran notablemente."
+    },
+    {
+      "escenario": "NEUMONÍA, BRONQUITIS, BRONQUIOLITIS",
+      "examenes": "Radiografía de tórax",
+      "descripcion": "Consideraciones:\nPaciente menor de tres meses con sospecha de alguna de estas patologías debe ser referido para atención presencial aunque no presenten dificultad respiratoria\nPaciente mayor de 3 meses y menor de 6 meses, con sospecha de alguna de estas patologías, con dificultad respiratoria (definida como: uso de músculos accesorios, taquipnea, aleteo nasal,\ndesaturación (si hay dato), sibilancias audibles, dificultad para hablar, palidez) deben ser referidos para atención presencial, y debe ser valorado avisar al SEM, para apoyo en condiciones de emergencia. \nSI NO PRESENTAN DIFICULTAD RESPIRATORIA tomar radiografía y generar referencia interna a pediatría.\nPaciente mayor de 6 meses con sospecha de alguno de estos diagnósticos, y no presenta dificultad respiratoria, manejado por médico privado o institucional presencial, (finalizado tratamiento antibiótico u\notros) y no presenta mejoría posterior a 72 horas de tratamiento, son candidatos para referencia interna a pediatría."
+    },
+    {
+      "escenario": "SISTEMA GASTROINTESTINAL",
+      "examenes": null,
+      "descripcion": null
+    },
+    {
+      "escenario": "DOLOR ABDOMINAL RECURRENTE O CRÓNICO",
+      "examenes": "Tomar EGH + coprocultivo",
+      "descripcion": "ESCENARIO DE REFERENCIA CRITERIOS Y EXÁMENES DE REFERENCIA\nCuadros de dolor abdominal de evolución crónica (más de dos semanas), o de comportamiento atípico, con intensidad leve, moderada que no altera las actividades del niño de manera importante (no incapacitante), sin relación a otros síntomas, a parte del manejo inicial del médico general según criterio, puede generar la referencia interna para pediatría.\nCuadros de dolor abdominal de fuerte intensidad que se acompañan de otra sintomatología (fiebre, vómito, hiporexia) ameritan una evaluación presencial por medio de la referencia externa."
+    },
+    {
+      "escenario": "ENFERMEDAD POR REFLUJO GASTROESOFÁGICO",
+      "examenes": "No amerita",
+      "descripcion": "Paciente con sospecha de esta patología, o que ya es diagnosticado pero se encuentra con sintomatología leve (vómitos intermitentes, interrupción de patrón de sueño) sin signos de deshidratación, así como también aquellos que perdieron controles, se debe generar una referencia interna para pediatría.\nEn casos en que la enfermedad esté descompensada y presente signos de intolerancia a la vía oral, se debe generar una referencia externa para evaluación presencial."
+    },
+    {
+      "escenario": "GASTROENTERITIS DIARREAS VÓMITOS PROLONGADOS O PERSISTENTES (CRÓNICOS)",
+      "examenes": "Hemograma, examen de orina, examen de heces, coprocultivo",
+      "descripcion": "Paciente con cualquiera de esta sintomatología menor de 3 meses debe ser referido para evaluación presencial (referencia externa) aunque no presente signos o síntomas de deshidratación.\nPaciente entre 3 meses y 6 meses que presente algún signo de deshidratación (definida como: irritabilidad, llanto inconsolable, llanto sin lágrimas, mala apariencia clínica, falta de diuresis en últimas 4 horas, más de 3 evacuaciones en una hora, más de tres vómitos en una hora) deben ser referidos para evaluación presencial (referencia externa)."
+    },
+    {
+      "escenario": "ESTREÑIMIENTO AGUDO O CRÓNICO",
+      "examenes": "No amerita",
+      "descripcion": "Paciente con cuadros de estreñimiento agudo (de su inicio hasta 4 semanas) o crónico (más de 4 semanas) sin controles médicos, o irregulares, y no presentan vómitos, fiebre, distensión y dolor abdominal en la consulta, puede hacer uso de la referencia interna para pediatría."
+    },
+    {
+      "escenario": "PIEL",
+      "examenes": null,
+      "descripcion": null
+    },
+    {
+      "escenario": "INFECCIONES DE LA PIEL",
+      "examenes": "No amerita",
+      "descripcion": "Paciente con problemas de piel y tejidos blandos, sin compromiso sistémico, que han recibido tratamiento previo sin mejoría clínica, o sin recibir tratamiento, son candidatos para referencia interna a pediatría.\nEpisodios recurrentes, con evidencia de formación de abscesos, o síntomas sistémicos, considerar la referencia externa para evaluación presencial."
+    },
+    {
+      "escenario": "SISTEMA RENAL",
+      "examenes": null,
+      "descripcion": null
+    },
+    {
+      "escenario": "INFECCIÓN DE VÍAS URINARIAS",
+      "examenes": "EGO + Urocultivo.",
+      "descripcion": "Paciente menor de 3 meses con cuadro de infección de vías urinarias debe ser referido independientemente del estado clínico para atención presencial (referencia externa).\nTodo paciente con cuadro de infección de vías urinarias de 3 meses a menor de 6 meses que no presentan síntomas sistémicos aplica a referencia interna a pediatría.\nPaciente mayor de seis meses y menor de 1 año con 1 o más cuadros de infección de vías urinarias, referencia interna a pediatría.\nPaciente mayor de 1 año, con más de 3 episodios de infección de vías urinarias en el último año, referencia interna a pediatría.\nTodo paciente con cuadro de infección de vías urinarias complicado con síntomas sistémicos (definidos como: más de tres vómitos en 1 hora, hemograma con leucocitosis y neutrofilia, pobre ingesta, falta de diuresis en últimas 4 horas, irritabilidad, mala apariencia clínica) debe ser referido para atención presencial (referencia externa)."
+    },
+    {
+      "escenario": "SISTEMA NEUROLÓGICO",
+      "examenes": null,
+      "descripcion": null
+    },
+    {
+      "escenario": "CEFALEA",
+      "examenes": "Hemograma, EGO, EGH",
+      "descripcion": "Paciente menor de 5 años, con cefaleas o cefaleas recurrentes, de intensidad leve a moderada, sin vómitos, referencia interna para evaluación por Pediatría.\nCefalea de fuerte intensidad, incapacitante, acompañada de: vómitos, o vómitos con intolerancia de la vía oral, fotofobia, acúfenos, son pacientes que ameritan referencia externa para evaluación presencial."
+    },
+    {
+      "escenario": "ALTERACIONES EN RESULTADO DE EXÁMENES TOMADOS AL AZAR POR PADRES DE PACIENTE",
+      "examenes": null,
+      "descripcion": "Paciente menor de 5 años, con cefaleas o cefaleas recurrentes, de intensidad leve a moderada, sin vómitos, referencia interna para evaluación por Pediatría.\n\nCefalea de fuerte intensidad, incapacitante, acompañada de: vómitos, o vómitos con intolerancia de la vía oral, fotofobia, acúfenos, son pacientes que ameritan referencia externa para evaluación presencial."
+    },
+    {
+      "escenario": "PERSISTENCIA DE SINTOMATOLOGÍA DE PATOLOGÍAS QUE HAN CUMPLIDO TRATAMIENTO PRESCRITO",
+      "examenes": null,
+      "descripcion": "Pacientes en seguimiento que cumplen los planes de tratamiento, por telemedicina, médicos privados o sector público presencial, y no presentan mejoría clínica, sin presencia de compromiso sistémico o su condición no representa una emergencia médica, puede evaluarse a través de la referencia interna a pediatría.\n\nCaso contrario, debe referirse presencialmente por medio de la referencia externa."
+    },
+    {
+      "escenario": "CONSULTAS RELACIONADAS A PUERICULTURA EN MENOR DE 1 AÑO",
+      "examenes": null,
+      "descripcion": "Pacientes menores de 1 año, que consultan por temas relacionados al cuidado como: problemas de alimentación, dificultad de tolerancia a la fórmula, disquecia del lactante (dificultad para evacuar a pesar de realizar esfuerzos y presentar heces blandas o incluso líquidas), rinitis del lactante, pujo del lactante, reflujo fisiológico, para este tipo de atenciones usar la referencia interna para el pediatra."
+    }
+  ],
+  "PSICOLOGIA": "Toda enfermedad diagnosticada como problema de salud mental que requiera atencion con psicologia puede ser referido de forma interna, sin embargo todo paciente que refiera pensamientos o intencionalidad suicida debe de ser referido a emergencia con referencia externa a psiquiatria.",
+  "NUTRICION": [
+    {
+      "escenario": "Diagnóstico confirmado de ECNT o condición metabólica",
+      "examenes": null,
+      "descripcion": null
+    },
+    {
+      "escenario": "Diabetes Mellitus",
+      "examenes": "Pacientes con diagnóstico confirmado, sin complicaciones agudas o  crónicas descompensadas.",
+      "descripcion": null
+    },
+    {
+      "escenario": "Prediabetes",
+      "examenes": "-Glucosa alterada en ayunas en 2 o más ocasiones; o HbA1c 5.7–6.4% -Tolerancia oral a glucosa a las 2 horas entre 140 y 199mg/dl Criterios según ADA \ny que además presenten al menos un factor de riesgo adicional: IMC  ≥25, circunferencia de cintura elevada, hipertensión, dislipidemia, o  antecedente familiar de DM2.",
+      "descripcion": null
+    },
+    {
+      "escenario": "Prehipertensión arterial",
+      "examenes": "PAS 120-139 y PAD 80-89 mmHg (Valores elevados en 2 o más ocasiones) \n(Lectura elevada de presión arterial, según AHA)",
+      "descripcion": null
+    },
+    {
+      "escenario": "Hipertensión arterial",
+      "examenes": "Diagnóstico confirmado sin compromiso agudo. \n-Pacientes con diagnóstico de Hipertensión Arterial (2 o más lecturas  persistentes ≥140/90 mmHg) y que además presente Sobrepeso u  Obesidad (IMC≥25 kg/m²), priorizando a aquellos cuyo control de  presión arterial sea inadecuado a pesar de recibir tratamiento  farmacológico.",
+      "descripcion": null
+    },
+    {
+      "escenario": "Dislipidemias",
+      "examenes": "Hipertrigliceridemia, hipercolesterolemia o dislipidemia mixta  confirmada, con un perfil lipídico correspondiente a alto riesgo  cardiovascular: \n**(colesterol total ≥300 mg/dl, triglicéridos ≥250mg/dl).",
+      "descripcion": null
+    },
+    {
+      "escenario": "Sobrepeso u obesidad",
+      "examenes": "IMC ≥25 kg/m² , Sin las comorbilidades mencionadas en los criterios de exclusión. \nNo se referirán pacientes con sobrepeso u obesidad cuando la  patología principal corresponda a enfermedad renal crónica en  estadíos avanzados (4 y 5), hepática avanzada, cáncer u otras  condiciones fuera del alcance del programa actual.",
+      "descripcion": null
+    },
+    {
+      "escenario": "Criterio de referencia usado únicamente por especialidad de Ginecología y Obstetricia.",
+      "examenes": null,
+      "descripcion": null
+    },
+    {
+      "escenario": "Síndrome de Ovario  Poliquístico",
+      "examenes": "Pacientes con diagnóstico de SOP confirmado y que presenten  sobrepeso u obesidad o síntomas sugestivos a resistencia a la insulina  (hirsutismo, acantosis nigricans)",
+      "descripcion": null
+    },
+    {
+      "escenario": "Climaterio",
+      "examenes": "Pacientes en etapa de climaterio, con ganancia de peso y alteraciones  en exámenes bioquímicos.",
+      "descripcion": null
+    },
+    {
+      "escenario": "CRITERIOS DE EXCLUSIÓN PARA REFERENCIA A LA ESPECIALIDAD  DE NUTRICIÓN",
+      "examenes": null,
+      "descripcion": null
+    }
+  ],
+  "NUTRICION_exclusion": [
+    "Menores de 18 años",
+    "Pacientes en estado de embarazo",
+    "Enfermedad Renal Crónica en estadíos 4 y 5",
+    "Cirrosis u otra enfermedad hepática avanzada/descompensada",
+    "Cualquier tipo de cáncer en tratamiento activo.",
+    "Descompensaciones agudas (crisis hipertensiva, cetoacidosis, etc.).",
+    "Otras patologías o condiciones de salud diferentes a las mencionadas dentro de los criterios de referencia al área."
+  ],
+  "NUTRICION_requisitos": [
+    {
+      "escenario": "Peso actual",
+      "examenes": "Medición reciente en libras o kilogramos (La medición del peso para referencia a Nutrición debe ser menor a 3 meses)",
+      "descripcion": null
+    },
+    {
+      "escenario": "Talla",
+      "examenes": "Medición en centímetros o metros",
+      "descripcion": null
+    },
+    {
+      "escenario": "Edad del paciente",
+      "examenes": "La edad debe ser mayor o igual a 18 años al momento de la  consulta",
+      "descripcion": null
+    },
+    {
+      "escenario": "Correo electrónico válido",
+      "examenes": "Verificar que el correo electrónico vinculado a la aplicación del  paciente sea válido y que tenga acceso a él.",
+      "descripcion": null
+    }
+  ]
+}

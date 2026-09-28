@@ -1,0 +1,77 @@
+[
+  {
+    "cie11": "6A00.Z",
+    "diagnostico": "Trastorno del desarrollo intelectual, sin especificación",
+    "casoUso": "Paciente con discapacidad intelectual"
+  },
+  {
+    "cie11": "FB32.3",
+    "diagnostico": "Síndrome de inmovilidad",
+    "casoUso": "Paciente parapléjico"
+  },
+  {
+    "cie11": "MB53.Z",
+    "diagnostico": "Hemiplejia, sin especificación",
+    "casoUso": "Paciente hemipléjico"
+  },
+  {
+    "cie11": "MB50.Z",
+    "diagnostico": "Tetraplejia, sin especificación",
+    "casoUso": "Paciente cuadripléjico"
+  },
+  {
+    "cie11": "1G83",
+    "diagnostico": "Secuela de la poliomielitis",
+    "casoUso": "Paciente con secuelas a causa de la poliomielitis"
+  },
+  {
+    "cie11": "8D2Z",
+    "diagnostico": "Parálisis cerebral, sin especificación",
+    "casoUso": "Paciente con parálisis cerebral infantil"
+  },
+  {
+    "cie11": "9D90.6",
+    "diagnostico": "Ceguera",
+    "casoUso": "Paciente con ceguera total"
+  },
+  {
+    "cie11": "9D90.Z",
+    "diagnostico": "Deterioro de la visión, incluida la ceguera, sin especificación",
+    "casoUso": "Paciente con ceguera parcial"
+  },
+  {
+    "cie11": "MB40.2",
+    "diagnostico": "Anacusia",
+    "casoUso": "Paciente con sordera total"
+  },
+  {
+    "cie11": "AB5Z",
+    "diagnostico": "Trastornos con deficiencia auditiva, sin especificación",
+    "casoUso": "Paciente con sordera parcial"
+  },
+  {
+    "cie11": "AB50.Z",
+    "diagnostico": "Deficiencia auditiva congénita, sin especificación",
+    "casoUso": "Paciente con sordera congénita"
+  },
+  {
+    "cie11": "QB51.9",
+    "diagnostico": "Presencia de un miembro artificial",
+    "casoUso": "Paciente con prótesis de extremidades"
+  },
+  {
+    "cie11": "QB51.B",
+    "diagnostico": "Presencia de audífono externo",
+    "casoUso": "Paciente con audífono externo en uno o ambos oídos"
+  },
+  {
+    "cie11": "MB23.D",
+    "diagnostico": "Mutismo",
+    "casoUso": "Paciente con mudez"
+  },
+  {
+    "cie11": "AB5Y",
+    "diagnostico": "Otros trastornos especificados con deficiencia auditiva",
+    "casoUso": "Paciente con mutismo y sordera"
+  }
+]

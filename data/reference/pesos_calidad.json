@@ -1,0 +1,156 @@
+[
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Motivo Consulta",
+    "pesoPorcentaje": 0.03,
+    "autoFail": "n/a",
+    "impacto": "Inicio del registro clínico."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Signos Vitales",
+    "pesoPorcentaje": 0.03,
+    "autoFail": "n/a",
+    "impacto": "Estado fisiológico inmediato."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Talla y Peso",
+    "pesoPorcentaje": 0.03,
+    "autoFail": "n/a",
+    "impacto": "Datos biométricos."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Antecedentes",
+    "pesoPorcentaje": 0.03,
+    "autoFail": "n/a",
+    "impacto": "Contexto clínico previo del paciente."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Alergias",
+    "pesoPorcentaje": 0.03,
+    "autoFail": "n/a",
+    "impacto": "Prevención de eventos adversos graves."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Presente Enfermedad",
+    "pesoPorcentaje": 0.18,
+    "autoFail": "AUTO FAIL",
+    "impacto": "Historia y evolución del motivo actual."
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Transcripción Clínica",
+    "pesoPorcentaje": 0.02,
+    "autoFail": "n/a",
+    "impacto": "Veracidad documental y legibilidad"
+  },
+  {
+    "componente": "EXAMEN FISICO",
+    "criterio": "Examen Físico Visual",
+    "pesoPorcentaje": 0.06,
+    "autoFail": "n/a",
+    "impacto": "Hallazgos objetivos del profesional."
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "Apreciación Diagnóstica",
+    "pesoPorcentaje": 0.08,
+    "autoFail": "n/a",
+    "impacto": "El \"por qué\" del juicio clínico."
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "Diagnóstico Principal",
+    "pesoPorcentaje": 0.16,
+    "autoFail": "AUTO FAIL",
+    "impacto": "Eje central de la atención."
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "Diagnóstico Secundario",
+    "pesoPorcentaje": 0.04,
+    "autoFail": "n/a",
+    "impacto": "Hallazgos adicionales."
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "Problema Activo",
+    "pesoPorcentaje": 0.06,
+    "autoFail": "n/a",
+    "impacto": "Gestión de condiciones coexistentes."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Prescripción - Indicación",
+    "pesoPorcentaje": 0.05,
+    "autoFail": "AUTO FAIL",
+    "impacto": "Pertinencia del tratamiento elegido."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Prescripción - Dosis",
+    "pesoPorcentaje": 0.05,
+    "autoFail": "AUTO FAIL",
+    "impacto": "Seguridad farmacológica."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Laboratorios",
+    "pesoPorcentaje": 0.04,
+    "autoFail": "n/a",
+    "impacto": "Soporte analítico."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Imágenes",
+    "pesoPorcentaje": 0.03,
+    "autoFail": "n/a",
+    "impacto": "Soporte diagnóstico visual."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Seguridad al Contraste",
+    "pesoPorcentaje": 0.01,
+    "autoFail": "n/a",
+    "impacto": "Prevención de riesgo en procedimientos."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Referencia Interna",
+    "pesoPorcentaje": 0.02,
+    "autoFail": "n/a",
+    "impacto": "Flujo a especialista interno."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Referencia Externa",
+    "pesoPorcentaje": 0.03,
+    "autoFail": "AUTO FAIL",
+    "impacto": "Coordinación con otros niveles."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Constancia Médica",
+    "pesoPorcentaje": 0.02,
+    "autoFail": "n/a",
+    "impacto": "Documento puramente administrativo."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Recomendaciones",
+    "pesoPorcentaje": 0.01,
+    "autoFail": "n/a",
+    "impacto": "Educación al paciente."
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Seguimiento",
+    "pesoPorcentaje": 0.02,
+    "autoFail": "n/a",
+    "impacto": "Control posterior del paciente."
+  }
+]

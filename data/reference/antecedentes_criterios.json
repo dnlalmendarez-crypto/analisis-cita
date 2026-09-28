@@ -1,0 +1,122 @@
+[
+  {
+    "pregunta": "¿Tiene alguna alergia a medicamentos?",
+    "scorePorcentaje": 0.0833,
+    "dondeBuscar": "Buscar en el menú de alergias, (porque no está en antecedentes)",
+    "rangoEdad": "TODOS",
+    "genero": "TODOS",
+    "primeraConsulta": "si",
+    "subsecuente": "si",
+    "excepcionesConsultaRapida": "si"
+  },
+  {
+    "pregunta": "¿Alguien en su familia padece alguna enfermedad crónica o grave que ud considere importante? \n (la presión?, diabetes \"azucar\"?, los riñones?, la tiroides?, algún cáncer)",
+    "scorePorcentaje": 0.125,
+    "dondeBuscar": "Buscar en el segmento de: “Antededentes Familiares”",
+    "rangoEdad": "TODOS",
+    "genero": "TODOS",
+    "primeraConsulta": "si",
+    "subsecuente": "no",
+    "excepcionesConsultaRapida": "no"
+  },
+  {
+    "pregunta": "¿Ha sido diagnosticado con alguna enfermedad crónica (diabetes, hipertensión, asma, enfermedades cardíacas, tiroides, etc.)?\n (1. padece de presión? 2. padece de Diabetes Mellitus \"azucar\"; 3. padece de los Riñones? 4. padece de algún cáncer)",
+    "scorePorcentaje": 0.25,
+    "dondeBuscar": "Buscar en el segmento de: “Patológicos personales”",
+    "rangoEdad": "TODOS",
+    "genero": "TODOS",
+    "primeraConsulta": "si",
+    "subsecuente": "si",
+    "excepcionesConsultaRapida": "no"
+  },
+  {
+    "pregunta": "¿Ha estado ingresado en un establecimiento de salud alguna vez? ¿Por qué motivo y cuándo?",
+    "scorePorcentaje": 0.0833,
+    "dondeBuscar": null,
+    "rangoEdad": "TODOS",
+    "genero": "TODOS",
+    "primeraConsulta": "si",
+    "subsecuente": "no",
+    "excepcionesConsultaRapida": "no"
+  },
+  {
+    "pregunta": "¿Tiene antecedentes de operaciones quirúrgicas con anestesia? ¿De qué y cuándo?",
+    "scorePorcentaje": 0.0833,
+    "dondeBuscar": null,
+    "rangoEdad": "TODOS",
+    "genero": "TODOS",
+    "primeraConsulta": "si",
+    "subsecuente": "no",
+    "excepcionesConsultaRapida": "no"
+  },
+  {
+    "pregunta": "¿Cuánto mide su cintura en centímetros?",
+    "scorePorcentaje": 0.0417,
+    "dondeBuscar": "Buscar en el segmento de: “variables de prevención”",
+    "rangoEdad": "TODOS",
+    "genero": "medicina metabolica/nutricion",
+    "primeraConsulta": "si",
+    "subsecuente": "no",
+    "excepcionesConsultaRapida": "no"
+  },
+  {
+    "pregunta": "¿Fuma actualmente?",
+    "scorePorcentaje": 0.0833,
+    "dondeBuscar": null,
+    "rangoEdad": "> 15 AÑOS",
+    "genero": "TODOS",
+    "primeraConsulta": "si",
+    "subsecuente": "condicional",
+    "excepcionesConsultaRapida": "condicional"
+  },
+  {
+    "pregunta": "¿come frutas habitualmente?",
+    "scorePorcentaje": 0.0417,
+    "dondeBuscar": null,
+    "rangoEdad": "TODOS",
+    "genero": "TODOS",
+    "primeraConsulta": "si",
+    "subsecuente": "no",
+    "excepcionesConsultaRapida": "no"
+  },
+  {
+    "pregunta": "¿come verduras habitualmente?",
+    "scorePorcentaje": 0.0417,
+    "dondeBuscar": null,
+    "rangoEdad": "TODOS",
+    "genero": "TODOS",
+    "primeraConsulta": "si",
+    "subsecuente": "no",
+    "excepcionesConsultaRapida": "no"
+  },
+  {
+    "pregunta": "¿Estás embarazada?",
+    "scorePorcentaje": 0.0833,
+    "dondeBuscar": null,
+    "rangoEdad": "12 - 45",
+    "genero": "mujer",
+    "primeraConsulta": "si",
+    "subsecuente": "si",
+    "excepcionesConsultaRapida": "condicional"
+  },
+  {
+    "pregunta": "¿Fecha de tu última menstruación?",
+    "scorePorcentaje": 0.0417,
+    "dondeBuscar": null,
+    "rangoEdad": "12 - 45",
+    "genero": "mujer",
+    "primeraConsulta": "si",
+    "subsecuente": "condicional",
+    "excepcionesConsultaRapida": "condicional"
+  },
+  {
+    "pregunta": "¿Ha recibido todas sus vacunas al día? (Enfocado en vacunas importantes para pediatría).",
+    "scorePorcentaje": 0.0417,
+    "dondeBuscar": "Buscar en la nota medica porque no tiene un segmento especifico.",
+    "rangoEdad": "< 5",
+    "genero": "niños y embarazadas",
+    "primeraConsulta": "si",
+    "subsecuente": "condicional",
+    "excepcionesConsultaRapida": "no"
+  }
+]

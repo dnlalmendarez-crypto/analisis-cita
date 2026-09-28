@@ -1,0 +1,117 @@
+[
+  {
+    "diagnostico": "Enfermedades parasitarias, sin especificación",
+    "cie11": "1G2Z",
+    "seguimiento": "Si, dos seguimientos minimos"
+  },
+  {
+    "diagnostico": "Giardiasis",
+    "cie11": "1A31",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Amebiasis",
+    "cie11": "1A36",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Blastocistosis",
+    "cie11": "1A35",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Ascariosis (Ascaridiasis)",
+    "cie11": "1F62",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Enterobiasis (Oxiuros)",
+    "cie11": "1F65",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Cistitis",
+    "cie11": "GC00",
+    "seguimiento": "Si, dos seguimientos minimos"
+  },
+  {
+    "diagnostico": "Infección urinaria, localización y microbio patógeno no especificados",
+    "cie11": "GC08.Z",
+    "seguimiento": "Si, dos seguimientos minimos"
+  },
+  {
+    "diagnostico": "Infección urinaria por otro microbio patógeno, localización no especificada",
+    "cie11": "GC08.Y",
+    "seguimiento": "Si, dos seguimientos minimos"
+  },
+  {
+    "diagnostico": "Infección urinaria por Escherichia coli, localización no especificada",
+    "cie11": "GC08.0",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Infección urinaria por Klebsiella pneumoniae, localización no especificada",
+    "cie11": "GC08.1",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Infección urinaria por Proteus, localización no especificada",
+    "cie11": "GC08.2",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Infecciones intestinales por Shigella",
+    "cie11": "1A02",
+    "seguimiento": "Si, dos seguimientos minimos"
+  },
+  {
+    "diagnostico": "Fiebre tifoidea",
+    "cie11": "1A07",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Enteritis por Salmonella",
+    "cie11": "1A09.0",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Infecciones intestinales bacterianas, sin especificación",
+    "cie11": "1A0Z",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Dengue sin signos de alarma",
+    "cie11": "1D20",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Dengue con signos de alarma",
+    "cie11": "1D21",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Dengue grave",
+    "cie11": "1D22",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Fiebre de otro origen o de origen desconocido",
+    "cie11": "MG26",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Enfermedad por el virus del Chikungunya",
+    "cie11": "1D40",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Enfermedad por el virus del zika",
+    "cie11": "1D48",
+    "seguimiento": "Si, un seguimiento minimo"
+  },
+  {
+    "diagnostico": "Sarampión",
+    "cie11": "1F03",
+    "seguimiento": "Si, un seguimiento minimo"
+  }
+]
