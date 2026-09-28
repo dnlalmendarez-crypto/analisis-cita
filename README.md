@@ -10,11 +10,11 @@ Aplicación web para auditoría de calidad médica: coteja la **Transcripción**
 | Ginecología | ✅ Configurado |
 | Pediatría | ✅ Configurado |
 | Medicina Interna | ✅ Configurado |
+| Psicología | ✅ Configurado |
 | Nutrición | ⏳ Pendiente (falta su prompt y documentos) |
-| Psicología | ⏳ Pendiente (falta su prompt y documentos) |
 | Medicina Metabólica | ⏳ Pendiente (falta su prompt y documentos) |
 
-Las 4 especialidades configuradas comparten el mismo prompt de auditoría (`src/lib/prompts/generalEspecialidadesPrompt.ts`), con matices propios de cada una cargados desde `data/reference/`.
+Medicina General, Ginecología, Pediatría y Medicina Interna comparten el mismo prompt de auditoría (`src/lib/prompts/generalEspecialidadesPrompt.ts`), con matices propios de cada una cargados desde `data/reference/`. Psicología tiene su propio prompt (`src/lib/prompts/psicologiaPrompt.ts`) y su propia base de referencia (`data/reference/psicologia/`), ya que evalúa criterios distintos (áreas emocional/cognitiva/conductual/social, instrumentos psicométricos, Guía de Consulta de Psicología, etc.). `src/lib/promptRouter.ts` decide qué módulo usar según la especialidad detectada/seleccionada.
 
 ## Cómo funciona
 

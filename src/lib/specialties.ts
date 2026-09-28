@@ -20,7 +20,7 @@ export const SPECIALTIES: SpecialtyConfig[] = [
   { id: "PEDIATRIA", label: "Pediatría", supported: true },
   { id: "MEDICINA_INTERNA", label: "Medicina Interna", supported: true },
   { id: "NUTRICION", label: "Nutrición", supported: false },
-  { id: "PSICOLOGIA", label: "Psicología", supported: false },
+  { id: "PSICOLOGIA", label: "Psicología", supported: true },
   { id: "MEDICINA_METABOLICA", label: "Medicina Metabólica", supported: false },
 ];
 

@@ -1,0 +1,122 @@
+[
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Motivo de Consulta",
+    "indicador": "Motivo de Consulta",
+    "descripcionRegla": "Descripción breve de la razón por la que el paciente solicita atención psicológica, preferiblemente en sus propias palabras.\n\n- Validad que el campo de motivo de la consulta este lleno.\n- Verificar si el médico validó el motivo o la razón por la cual el paciente acude a la consulta\n- Acción de preguntar en dado caso el paciente no lo haya llenado y acción de validar si ya está registrado\n- Si no viene consulta por, el transcript se compara vs la nota\n- Si viene la consulta por, que se valide que el médico haya validado lo que está escrito en el campo"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Signos Vitales",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Talla y peso",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Antecedentes personales",
+    "indicador": "Antecedentes personales",
+    "descripcionRegla": "- Trastornos mentales previos (diagnóstico, tratamiento, evolución)\n- Consumo de sustancias psicoactivas\n- Enfermedades médicas relevantes\n- Medicación actual"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "Alergias",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "TRANSCRIPCIÓN CLÍNICA",
+    "indicador": "¿El Psicologo obvio sintomas importantes de la consulta?",
+    "descripcionRegla": "Transcript (Palabras Clave)/Nota Médica"
+  },
+  {
+    "componente": "ANAMNESIS",
+    "criterio": "HISTORIA CLÍNICA PSICOLÓGICA",
+    "indicador": "EVALUACIÓN DEL FUNCIONAMIENTO ACTUAL \n(en relación a la situación problemática)",
+    "descripcionRegla": "Se retoman en la nota médica sólo aquellas áreas que son de interés para el tratamiento:\n- Área emocional: Estado de ánimo, ansiedad, irritabilidad, ideación suicida\n- Área cognitiva: Atención, memoria, pensamiento, creencias disfuncionales\n- Área conductual: Rutina diaria, patrones de sueño, alimentación, conducta social\n- Área social/laboral/académica: Relaciones interpersonales, rendimiento académico/laboral, aislamiento social o dificultades de adaptación."
+  },
+  {
+    "componente": "EXAMEN FISICO",
+    "criterio": "EXAMEN FÍSICO",
+    "indicador": "APLICACIÓN DE INSTRUMENTOS \n(según necesidad)",
+    "descripcionRegla": "Resultados preliminares (Escala de Ansiedad de Hamilton, Inventario de Depresión de Beck, SRQ-20)"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "APRECIACIÓN DIAGNOSTICA",
+    "indicador": "La apreciación diagnostica del médico concuerda con el diagnostico de Gemini",
+    "descripcionRegla": "Resultados preliminares (Escala de Ansiedad de Hamilton, Inventario de Depresión de Beck, SRQ-20, SRQ-25)"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "DIAGNOSTICO PRINCIPAL",
+    "indicador": "El diagnostico principal concuerda con los diagnostico de gemini?",
+    "descripcionRegla": "FORMULACIÓN PSICOLÓGICA \n(Resumen integrador de la problemática del paciente según el modelo psicológico utilizado (cognitivo-conductual)"
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "DIAGNOSTICO SECUNDARIO",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "DIAGNOSTICO",
+    "criterio": "PROBLEMAS ACTIVOS",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "PRESCRIPCION",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "LABORATORIO",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "IMAGENES",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "REFERENCIA INTERNA",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "REFERENCIA EXTERNA",
+    "indicador": "¿El psicolóco genera referencia externa en los casos que ameriten seguimiento por Psiquiatría u otra especialidad?",
+    "descripcionRegla": "Necesidad de referencia a otros profesionales (psiquiatría, trabajo social, etc.)"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "Constancia Médica",
+    "indicador": "No aplica para Psicologia",
+    "descripcionRegla": null
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "RECOMENDACIONES",
+    "indicador": "PLAN DE INTERVENCIÓN",
+    "descripcionRegla": "Objetivo terapéutico (elaborado junto al paciente)\nSituación problemática a trabajar (identificada junto al paciente)"
+  },
+  {
+    "componente": "PRODUCTOS DE LA CONSULTA",
+    "criterio": "SEGUIMIENTO",
+    "indicador": "¿El Psicologo brinda seguimiento segun la Guía de consulta de psicología en teleconsulta?",
+    "descripcionRegla": "Modalidad de intervención (teleconsulta individual)\nFrecuencia de sesiones\nhorarios"
+  }
+]

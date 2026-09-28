@@ -1,9 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import {
-  GENERAL_ESPECIALIDADES_PROMPT,
-  NUEVA_CONSULTA_INSTRUCCION,
-} from "@/lib/prompts/generalEspecialidadesPrompt";
-import { buildAnexosMarkdown } from "@/lib/referenceContext";
+import { buildSystemPrompt } from "@/lib/promptRouter";
 import { getSpecialtyConfig, type SpecialtyId, SPECIALTIES } from "@/lib/specialties";
 import { runAudit, LlmError, type LlmProvider } from "@/lib/llm";
 
@@ -62,8 +58,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const anexos = buildAnexosMarkdown(specialty);
-  const systemPrompt = `${GENERAL_ESPECIALIDADES_PROMPT}\n\n${NUEVA_CONSULTA_INSTRUCCION}\n\n${anexos}`;
+  const systemPrompt = buildSystemPrompt(specialty);
 
   const userContent = `Especialidad detectada/seleccionada para esta auditoría: ${specialtyConfig.label}
 

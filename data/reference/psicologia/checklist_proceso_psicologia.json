@@ -1,0 +1,94 @@
+[
+  {
+    "segmento": "Introducción de Teleconsulta",
+    "item": "Bienvenida al paciente"
+  },
+  {
+    "segmento": "Introducción de Teleconsulta",
+    "item": "Viabilidad de la Videollamada"
+  },
+  {
+    "segmento": "Entrevista y Evaluación",
+    "item": "Revisar histotia clinica previa"
+  },
+  {
+    "segmento": "Entrevista y Evaluación",
+    "item": "Recibir historial del paciente (motivo de consulta)"
+  },
+  {
+    "segmento": "Entrevista y Evaluación",
+    "item": "Aplicar escala SRQ25 / Hamilton"
+  },
+  {
+    "segmento": "Entrevista y Evaluación",
+    "item": "Definir apreciación diagnóstica"
+  },
+  {
+    "segmento": "Entrevista y Evaluación",
+    "item": "Aplica ejrcicios de mindfulness o técnicas de relajación"
+  },
+  {
+    "segmento": "Entrevista y Evaluación",
+    "item": "Registrar pensamientos y emociones del paciente"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Establecer diganóstico diferencial / definitivo"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Definir el objetivo terapéutico: cantidad de sesiones"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Aplica recomendaciones IA al objetivo terapéutico"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Psicologo identifica severedad del diagnostico"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "No requiere referencia intera a Psiquiatra"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Establecer objetivos para la situación problematica"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Psicologo indica tareas o ejercicios para el manejo del paciente"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Emite recomendaciones psicologicas"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Requiere seguimiento"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Agendar cita de seguimiento"
+  },
+  {
+    "segmento": "Plan Terapéutico",
+    "item": "Requiere monitoreo"
+  },
+  {
+    "segmento": "Finalización de la Teleconsulta",
+    "item": "Generar constancia de asistencia médica"
+  },
+  {
+    "segmento": "Finalización de la Teleconsulta",
+    "item": "Solicita al paciente calificar la teleconsulta al finalizar la llamada"
+  },
+  {
+    "segmento": "Finalización de la Teleconsulta",
+    "item": "Realizar despedida al paciente / esperar que el paciente finalice la videollamada"
+  },
+  {
+    "segmento": "Finalización de la Teleconsulta",
+    "item": "Duración de la consulta mayor o igual a 45 minutos"
+  }
+]

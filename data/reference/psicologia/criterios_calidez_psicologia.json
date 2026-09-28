@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "criterio": "Presentación",
+      "nombre": "Presentación",
+      "pregunta": "1: \"Se presenta con nombre y/o apellido ¿Se presenta el médico con nombre y/o apellido?\"",
+      "ponderacionSegmento": 20
+    },
+    {
+      "criterio": "Presentación",
+      "nombre": "Informa de la grabación",
+      "pregunta": "2: \"Informa de la grabación de la llamada ¿Informa al paciente que consulta está siendo grabada?\"",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Presentación",
+      "nombre": "Identifica la Institución",
+      "pregunta": "3: \"Identifica la institución ¿Médico identifica el nombre de la institución a la cual se está conectando el paciente (Telemedicina o Doctor ISSS)?\"",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Presentación",
+      "nombre": "Solicita el nombre del paciente",
+      "pregunta": "4: \"Solicita el nombre del paciente ¿Médico solicitó el nombre del paciente?\"",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Presentación",
+      "nombre": "Solicita afilicación del paciente",
+      "pregunta": "5: \"Verifica afiliación del paciente, ¿Médico corrobora institución que brinda el beneficio de la salud?\"",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Presentación",
+      "nombre": "Solicita el número de documento del paciente",
+      "pregunta": "6: \"Solicita número de documento del paciente, ¿Se solicita documento de identidad?\"",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Expresión",
+      "nombre": "Trato con respeto",
+      "pregunta": "1: \"¿Trata con respeto al paciente?, ¿El trato hacia el paciente es adecuado?, que utilice el nombre del paciente",
+      "ponderacionSegmento": 20
+    },
+    {
+      "criterio": "Expresión",
+      "nombre": "No utiliza lenguaje técnico",
+      "pregunta": "2: \"Uso de vocabulario adecuado, ¿Médico adapta su lenguaje para que paciente lo entienda?, ¿Explica muy bien indicaciones?, ¿No utiliza lenguaje técnico?\",",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Expresión",
+      "nombre": "Utiliza frases de cortesía",
+      "pregunta": "3: \"¿Utiliza frases de cortesía? (Ejemplo: \\\"¿Me podría indicar, por favor\\\", \\\"gracias\\\", \\\"Permitame un momento indicaré sus recetas\\\", \\\"Gracias por la espera\\\")\",",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Expresión",
+      "nombre": "Percepción de atención por parte del paciente",
+      "pregunta": "4: ¿El Paciente no da indicios que el médico no le presta atención?  Le pregunta al doctor si lo escucha, me escucha, me entendio, al menos 2 veces en la consulta?",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Expresión",
+      "nombre": "Utiliza frases de empatía",
+      "pregunta": "5: \"¿Responde con frases de empatía ante los comentarios del paciente?, Usa conectores como: \\\"comprendo\\\", \\\"entiendo\\\". Usa Frases como: \\\"Lamento su situación\\\"\",",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Expresión",
+      "nombre": "Médico permite que paciente se exprese",
+      "pregunta": "6: \"¿Permite al usuario expresarse?, ¿Permite al usuario terminar las ideas?\"",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Despedida",
+      "nombre": "Realiza resumen médico",
+      "pregunta": "7. ¿Médico realiza resumen?",
+      "ponderacionSegmento": 10
+    },
+    {
+      "criterio": "Despedida",
+      "nombre": "Verificación de entendimiento",
+      "pregunta": "8. ¿El doctor al final pregunto al paciente si tiene alguna pregunta adicional?",
+      "ponderacionSegmento": null
+    },
+    {
+      "criterio": "Despedida",
+      "nombre": "Despedida cordial",
+      "pregunta": "9. ¿Realiza despedida cordial?.",
+      "ponderacionSegmento": null
+    }
+  ],
+  "bandasCalificacion": [
+    {
+      "calificacion": "Excelente",
+      "descripcion": "Cumple con todos los pasos del proceso de manera eficiente, clara y profesional. Además, demuestra total confianza y dominio del proceso. ",
+      "puntuacion": "95-100%"
+    },
+    {
+      "calificacion": "Bueno",
+      "descripcion": "Cumple con el proceso de manera adecuada, aunque podría mejorar en algunos detalles o pasos. Muestra seguridad en la ejecución, pero con algunas áreas de oportunidad.",
+      "puntuacion": "85-94%"
+    },
+    {
+      "calificacion": "Regular",
+      "descripcion": "Cumple con el proceso, pero de forma desordenada o inconsistente. Existen errores menores que afectan la calidad del proceso, y la ejecución refleja falta de confianza en algunos pasos.",
+      "puntuacion": "70-84%"
+    },
+    {
+      "calificacion": "Deficiente",
+      "descripcion": "No cumple con el procedimiento completo o comete errores significativos. Falta claridad en el proceso, y presenta deficiencias notables en la ejecución, incluyendo falta de calidez y confianza.",
+      "puntuacion": "50-69%"
+    }
+  ]
+}
