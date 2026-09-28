@@ -1,23 +1,22 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenAI } from "@google/genai";
 import { DEFAULT_MODELS, LlmError, type RunAuditParams } from "./types";
 
 export async function runGeminiAudit(params: RunAuditParams): Promise<string> {
   const model = params.model || DEFAULT_MODELS.google;
-  const genAI = new GoogleGenerativeAI(params.apiKey);
+  const ai = new GoogleGenAI({ apiKey: params.apiKey });
 
   try {
-    const generativeModel = genAI.getGenerativeModel({
+    const response = await ai.models.generateContent({
       model,
-      systemInstruction: params.systemPrompt,
+      contents: params.userContent,
+      config: {
+        systemInstruction: params.systemPrompt,
+        maxOutputTokens: 8192,
+      },
     });
 
-    const result = await generativeModel.generateContent({
-      contents: [{ role: "user", parts: [{ text: params.userContent }] }],
-      generationConfig: { maxOutputTokens: 8192 },
-    });
-
-    const text = result.response.text();
-    if (!text.trim()) {
+    const text = response.text;
+    if (!text || !text.trim()) {
       throw new LlmError("Gemini devolvió una respuesta vacía.");
     }
     return text;

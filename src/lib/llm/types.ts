@@ -10,7 +10,9 @@ export interface RunAuditParams {
 
 export const DEFAULT_MODELS: Record<LlmProvider, string> = {
   anthropic: "claude-sonnet-5",
-  google: "gemini-2.5-pro",
+  // gemini-2.5-pro was retired for new users; the Gemini API itself now points
+  // new integrations to gemini-3.1-pro-preview.
+  google: "gemini-3.1-pro-preview",
 };
 
 export class LlmError extends Error {

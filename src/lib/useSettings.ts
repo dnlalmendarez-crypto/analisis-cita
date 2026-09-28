@@ -18,7 +18,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   anthropicKey: "",
   googleKey: "",
   anthropicModel: "claude-sonnet-5",
-  googleModel: "gemini-2.5-pro",
+  googleModel: "gemini-3.1-pro-preview",
 };
 
 // Simple external store backed by localStorage, read via useSyncExternalStore so the
@@ -27,10 +27,21 @@ const DEFAULT_SETTINGS: AppSettings = {
 let cache: AppSettings | null = null;
 const listeners = new Set<() => void>();
 
+// Gemini models retired by Google after they were saved as someone's default; map them
+// forward automatically instead of leaving old browsers stuck on a dead model id.
+const RETIRED_GOOGLE_MODELS: Record<string, string> = {
+  "gemini-2.5-pro": "gemini-3.1-pro-preview",
+};
+
 function readFromStorage(): AppSettings {
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (raw) return { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
+    if (raw) {
+      const parsed = { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
+      const upgraded = RETIRED_GOOGLE_MODELS[parsed.googleModel];
+      if (upgraded) parsed.googleModel = upgraded;
+      return parsed;
+    }
   } catch {
     // ignore corrupted storage
   }
